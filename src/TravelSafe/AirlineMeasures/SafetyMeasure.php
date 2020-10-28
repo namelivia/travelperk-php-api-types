@@ -20,4 +20,9 @@ class SafetyMeasure
      * @var string
      */
     public $details;
+
+    /**
+     * @var string
+     */
+    public $summary;
 }
