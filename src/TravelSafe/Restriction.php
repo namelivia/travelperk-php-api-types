@@ -12,11 +12,11 @@ class Restriction
     public $serialNumber;
 
     /**
-     * @var Origin
+     * @var Location
      */
     public $origin;
     /**
-     * @var Origin
+     * @var Location
      */
     public $destination;
     /**
