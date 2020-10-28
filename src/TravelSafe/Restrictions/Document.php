@@ -6,7 +6,6 @@ namespace Namelivia\TravelPerk\TravelSafe\Restrictions;
 
 class Document
 {
-
     /**
      * @var string
      */
@@ -21,5 +20,4 @@ class Document
      * @var string
      */
     public $downloadUrl;
-
 }

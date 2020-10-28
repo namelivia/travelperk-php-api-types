@@ -6,15 +6,13 @@ namespace Namelivia\TravelPerk\TravelSafe;
 
 class InfoSource
 {
+    /**
+     * @var string
+     */
+    public $name;
 
     /**
      * @var string
      */
-      public $name;
-
-    /**
-     * @var string
-     */
-      public $url;
-
+    public $url;
 }

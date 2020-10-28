@@ -6,20 +6,18 @@ namespace Namelivia\TravelPerk\TravelSafe;
 
 class Location
 {
+    /**
+     * @var string
+     */
+    public $name;
 
     /**
      * @var string
      */
-      public $name;
+    public $type;
 
     /**
      * @var string
      */
-      public $type;
-
-    /**
-     * @var string
-     */
-      public $countryCode;
-
+    public $countryCode;
 }

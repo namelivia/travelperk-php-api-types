@@ -6,7 +6,6 @@ namespace Namelivia\TravelPerk\TravelSafe;
 
 class Category
 {
-
     /**
      * @var string
      */
@@ -16,5 +15,4 @@ class Category
      * @var string
      */
     public $name;
-
 }
