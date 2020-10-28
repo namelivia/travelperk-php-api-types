@@ -42,8 +42,8 @@ class Metadata
     public $costCenter;
 
     /**
-    * @var string[]
-    */
+     * @var string[]
+     */
     public $labels;
 
     /**
