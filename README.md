@@ -5,4 +5,13 @@
 </p>
 
 ## About
-PHP types for the travelperk API entities
+PHP types for the travelperk API entities.
+
+## Installation
+
+Require this package, with [Composer](https://getcomposer.org/), in the root directory of your project.
+
+```bash
+$ composer require namelivia/travelperk-php-api-types:~0.0.1
+```
+
