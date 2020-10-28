@@ -2,24 +2,20 @@
 
 declare(strict_types=1);
 
-namespace Namelivia\TravelPerk\TravelSafe;
+namespace Namelivia\TravelPerk\TravelSafe\Summary;
 
-class Document
+class RiskLevel
 {
-
+    /**
+     * @var string
+     */
+    public $id;
     /**
      * @var string
      */
     public $name;
-
     /**
      * @var string
      */
-    public $documentUrl;
-
-    /**
-     * @var string
-     */
-    public $downloadUrl;
-
+    public $details;
 }

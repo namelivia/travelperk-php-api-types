@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Namelivia\TravelPerk\TravelSafe;
+namespace Namelivia\TravelPerk\TravelSafe\Restrictions;
 
 class Restriction
 {
@@ -12,11 +12,11 @@ class Restriction
     public $serialNumber;
 
     /**
-     * @var Location
+     * @var \Namelivia\TravelPerk\TravelSafe\Location
      */
     public $origin;
     /**
-     * @var Location
+     * @var \Namelivia\TravelPerk\TravelSafe\Location
      */
     public $destination;
     /**
@@ -48,7 +48,7 @@ class Restriction
      */
     public $requirements;
     /**
-     * @var InfoSource
+     * @var \Namelivia\TravelPerk\TravelSafe\InfoSource
      */
     public $infoSource;
 }

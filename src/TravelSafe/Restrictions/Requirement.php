@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Namelivia\TravelPerk\TravelSafe;
+namespace Namelivia\TravelPerk\TravelSafe\Restrictions;
 
 class Requirement
 {
     /**
-     * @var Category
+     * @var \Namelivia\TravelPerk\TravelSafe\Category
      */
     public $category;
 
     /**
-     * @var Category
+     * @var \Namelivia\TravelPerk\TravelSafe\Category
      */
     public $subCategory;
 
