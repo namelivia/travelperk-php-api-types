@@ -12,7 +12,7 @@ class Lines
     public $total;
 
     /**
-     * @var InvoiceLine[]
+     * @var \Namelivia\TravelPerk\Expenses\InvoiceLines\InvoiceLine[]
      */
     public $data;
 

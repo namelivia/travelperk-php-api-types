@@ -22,7 +22,7 @@ class Invoice
     public $profileName;
 
     /**
-     * @var BillingInformation
+     * @var \Namelivia\TravelPerk\Expenses\BillingInformation
      */
     public $billingInformation;
 

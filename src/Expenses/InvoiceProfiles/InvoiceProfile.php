@@ -32,7 +32,7 @@ class InvoiceProfile
     public $currency;
 
     /**
-     * @var BillingInformation
+     * @var \Namelivia\TravelPerk\Expenses\BillingInformation
      */
     public $billingInformation;
 }
