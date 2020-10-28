@@ -12,7 +12,7 @@ class Webhook
     public $id;
 
     /**
-     * @var boolean
+     * @var bool
      */
     public $enabled;
 
