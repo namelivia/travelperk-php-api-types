@@ -15,4 +15,9 @@ class SafetyMeasure
      * @var \Namelivia\TravelPerk\TravelSafe\Category
      */
     public $subCategory;
+
+    /**
+     * @var string
+     */
+    public $details;
 }
