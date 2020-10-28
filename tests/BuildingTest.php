@@ -9,6 +9,7 @@ use Namelivia\TravelPerk\Expenses\Invoices\Invoices;
 use Namelivia\TravelPerk\SCIM\Users\User;
 use Namelivia\TravelPerk\SCIM\Users\Users;
 use Namelivia\TravelPerk\Webhooks\Webhooks\Webhook;
+use Namelivia\TravelPerk\Webhooks\Webhooks\Webhooks;
 
 class BuildingTest extends TestCase
 {
