@@ -42,7 +42,7 @@ class Metadata
     public $costCenter;
 
     /**
-     * @var string[]
+     * @var string[]|null
      */
     public $labels;
 
