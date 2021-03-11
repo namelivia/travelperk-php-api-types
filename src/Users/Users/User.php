@@ -47,7 +47,7 @@ class User
     public $phoneNumbers;
 
     /**
-     * @var EmergencyContact
+     * @var EmergencyContact|null
      */
     public $emergencyContact;
 }
