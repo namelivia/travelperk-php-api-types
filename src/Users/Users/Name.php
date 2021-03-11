@@ -9,12 +9,12 @@ class Name
     /**
      * @var string
      */
-    public $givenName;
+    public $firstName;
 
     /**
      * @var string
      */
-    public $familyName;
+    public $lastName;
 
     /**
      * @var string
@@ -24,5 +24,5 @@ class Name
     /**
      * @var string
      */
-    public $honorificPrefix;
+    public $title;
 }
