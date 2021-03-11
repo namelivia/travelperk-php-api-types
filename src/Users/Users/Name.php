@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Namelivia\TravelPerk\SCIM\Users;
+namespace Namelivia\TravelPerk\Users\Users;
 
 class Name
 {
