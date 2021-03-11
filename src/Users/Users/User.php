@@ -29,7 +29,7 @@ class User
     /**
      * @var string
      */
-    public $rocale;
+    public $locale;
 
     /**
      * @var bool
