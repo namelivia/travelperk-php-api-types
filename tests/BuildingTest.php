@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Namelivia\TravelPerk\Tests;
 
+use Namelivia\TravelPerk\CostCenters\CostCenters\BulkUpdateResponse;
 use Namelivia\TravelPerk\CostCenters\CostCenters\CostCenter;
 use Namelivia\TravelPerk\CostCenters\CostCenters\CostCenters;
 use Namelivia\TravelPerk\CostCenters\CostCenters\CostCenterDetail;
@@ -45,5 +46,6 @@ class BuildingTest extends TestCase
         $this->assertTrue(is_a(new CostCenter(), CostCenter::class));
         $this->assertTrue(is_a(new CostCenterDetail(), CostCenterDetail::class));
         $this->assertTrue(is_a(new CostCenters(), CostCenters::class));
+        $this->assertTrue(is_a(new BulkUpdateResponse(), BulkUpdateResponse::class));
     }
 }
