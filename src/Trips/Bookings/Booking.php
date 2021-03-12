@@ -39,7 +39,7 @@ class Booking
     /**
      * @var string
      */
-    public $trip_id;
+    public $tripId;
 
     /**
      * @var Reference[]
