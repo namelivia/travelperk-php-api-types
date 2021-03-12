@@ -19,6 +19,8 @@ use Namelivia\TravelPerk\Webhooks\Webhooks\Webhook;
 use Namelivia\TravelPerk\Webhooks\Webhooks\Webhooks;
 use Namelivia\TravelPerk\Trips\Bookings\Booking;
 use Namelivia\TravelPerk\Trips\Bookings\Bookings;
+use Namelivia\TravelPerk\CostCenters\CostCenters\CostCenter;
+use Namelivia\TravelPerk\CostCenters\CostCenters\CostCenters;
 
 class BuildingTest extends TestCase
 {
@@ -39,5 +41,7 @@ class BuildingTest extends TestCase
         $this->assertTrue(is_a(new Trips(), Trips::class));
         $this->assertTrue(is_a(new Booking(), Booking::class));
         $this->assertTrue(is_a(new Bookings(), Bookings::class));
+        $this->assertTrue(is_a(new CostCenter(), CostCenter::class));
+        $this->assertTrue(is_a(new CostCenters(), CostCenters::class));
     }
 }
