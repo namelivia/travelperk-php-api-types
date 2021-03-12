@@ -22,7 +22,7 @@ class CostCenters
     public $total;
 
     /**
-     * @var CostCenters[]
+     * @var CostCenter[]
      */
     public $costCenters;
 }
