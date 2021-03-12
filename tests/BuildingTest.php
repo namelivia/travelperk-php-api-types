@@ -6,8 +6,8 @@ namespace Namelivia\TravelPerk\Tests;
 
 use Namelivia\TravelPerk\CostCenters\CostCenters\BulkUpdateResponse;
 use Namelivia\TravelPerk\CostCenters\CostCenters\CostCenter;
-use Namelivia\TravelPerk\CostCenters\CostCenters\CostCenters;
 use Namelivia\TravelPerk\CostCenters\CostCenters\CostCenterDetail;
+use Namelivia\TravelPerk\CostCenters\CostCenters\CostCenters;
 use Namelivia\TravelPerk\Expenses\Invoices\Invoice;
 use Namelivia\TravelPerk\Expenses\Invoices\Invoices;
 use Namelivia\TravelPerk\SCIM\Users\User as SCIMUser;
