@@ -17,12 +17,12 @@ class Trip
     public $tripName;
 
     /**
-     * @var string
+     * @var string|null
      */
     public $start;
 
     /**
-     * @var string
+     * @var string|null
      */
     public $end;
 

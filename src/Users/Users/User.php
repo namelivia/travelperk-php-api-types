@@ -37,7 +37,7 @@ class User
     public $active;
 
     /**
-     * @var string
+     * @var string|null
      */
     public $jobTitle;
 
