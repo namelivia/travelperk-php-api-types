@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Namelivia\TravelPerk\CostCenters\CostCenters;
 
-class CostCenter
+class CostCenterDetail
 {
     /**
      * @var string
@@ -15,6 +15,16 @@ class CostCenter
      * @var string
      */
     public $name;
+
+    /**
+     * @var bool
+     */
+    public $archived;
+
+    /**
+     * @var User[]
+     */
+    public $users;
 
     /**
      * @var int

@@ -6,6 +6,7 @@ namespace Namelivia\TravelPerk\Tests;
 
 use Namelivia\TravelPerk\CostCenters\CostCenters\CostCenter;
 use Namelivia\TravelPerk\CostCenters\CostCenters\CostCenters;
+use Namelivia\TravelPerk\CostCenters\CostCenters\CostCenterDetail;
 use Namelivia\TravelPerk\Expenses\Invoices\Invoice;
 use Namelivia\TravelPerk\Expenses\Invoices\Invoices;
 use Namelivia\TravelPerk\SCIM\Users\User as SCIMUser;
@@ -42,6 +43,7 @@ class BuildingTest extends TestCase
         $this->assertTrue(is_a(new Booking(), Booking::class));
         $this->assertTrue(is_a(new Bookings(), Bookings::class));
         $this->assertTrue(is_a(new CostCenter(), CostCenter::class));
+        $this->assertTrue(is_a(new CostCenterDetail(), CostCenterDetail::class));
         $this->assertTrue(is_a(new CostCenters(), CostCenters::class));
     }
 }
