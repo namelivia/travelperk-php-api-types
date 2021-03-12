@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Namelivia\TravelPerk\Trips\Location;
+namespace Namelivia\TravelPerk\Trips\Bookings;
 
 class Location
 {
