@@ -52,7 +52,7 @@ class Booking
     public $location;
 
     /**
-     * @var Leg[]
+     * @var Leg[]|null
      */
     public $legs;
 }
