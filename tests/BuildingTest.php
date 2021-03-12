@@ -13,8 +13,8 @@ use Namelivia\TravelPerk\TravelSafe\Restrictions\Restriction;
 use Namelivia\TravelPerk\TravelSafe\Summary\Summary;
 use Namelivia\TravelPerk\Users\Users\User;
 use Namelivia\TravelPerk\Users\Users\Users;
-use Namelivia\TravelPerk\Trips\Trip;
-use Namelivia\TravelPerk\Trips\Trips;
+use Namelivia\TravelPerk\Trips\Trips\Trip;
+use Namelivia\TravelPerk\Trips\Trips\Trips;
 use Namelivia\TravelPerk\Webhooks\Webhooks\Webhook;
 use Namelivia\TravelPerk\Webhooks\Webhooks\Webhooks;
 
