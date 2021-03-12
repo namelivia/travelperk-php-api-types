@@ -17,6 +17,8 @@ use Namelivia\TravelPerk\Trips\Trips\Trip;
 use Namelivia\TravelPerk\Trips\Trips\Trips;
 use Namelivia\TravelPerk\Webhooks\Webhooks\Webhook;
 use Namelivia\TravelPerk\Webhooks\Webhooks\Webhooks;
+use Namelivia\TravelPerk\Trips\Bookings\Booking;
+use Namelivia\TravelPerk\Trips\Bookings\Bookings;
 
 class BuildingTest extends TestCase
 {
@@ -35,5 +37,7 @@ class BuildingTest extends TestCase
         $this->assertTrue(is_a(new Users(), Users::class));
         $this->assertTrue(is_a(new Trip(), Trip::class));
         $this->assertTrue(is_a(new Trips(), Trips::class));
+        $this->assertTrue(is_a(new Booking(), Booking::class));
+        $this->assertTrue(is_a(new Bookings(), Bookings::class));
     }
 }
