@@ -5,7 +5,7 @@
 </p>
 
 ## About
-PHP types for the travelperk API entities.
+PHP types for the TravelPerk API entities.
 
 ## Installation
 
