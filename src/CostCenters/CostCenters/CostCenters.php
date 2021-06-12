@@ -17,11 +17,6 @@ class CostCenters
     public $limit;
 
     /**
-     * @var int
-     */
-    public $total;
-
-    /**
      * @var CostCenter[]
      */
     public $costCenters;
