@@ -47,7 +47,7 @@ class User
     public $groups;
 
     /**
-     * @var string
+     * @var bool
      */
     public $active;
 
