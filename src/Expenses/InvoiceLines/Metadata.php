@@ -67,7 +67,7 @@ class Metadata
     public $booker;
 
     /**
-     * @var str|null
+     * @var string|null
      */
     public $serviceLocation;
 
