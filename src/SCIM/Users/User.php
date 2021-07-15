@@ -62,7 +62,7 @@ class User
     public $phoneNumbers;
 
     /**
-     * @var Meta
+     * @var Meta|null
      */
     public $meta;
 

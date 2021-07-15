@@ -32,27 +32,22 @@ class Webhook
     public $secret;
 
     /**
-     * @var string
-     */
-    public $status;
-
-    /**
      * @var string[]
      */
     public $events;
 
     /**
-     * @var int
+     * @var int|null
      */
     public $successfullySent;
 
     /**
-     * @var int
+     * @var int|null
      */
     public $failedSent;
 
     /**
-     * @var float
+     * @var float|null
      */
     public $errorRate;
 }

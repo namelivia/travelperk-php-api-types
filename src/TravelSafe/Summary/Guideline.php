@@ -10,18 +10,22 @@ class Guideline
      * @var \Namelivia\TravelPerk\TravelSafe\Category;
      */
     public $category;
+
     /**
      * @var \Namelivia\TravelPerk\TravelSafe\Category;
      */
     public $subCategory;
+
     /**
      * @var string
      */
     public $summary;
+
     /**
      * @var string
      */
     public $details;
+
     /**
      * @var string
      */

@@ -20,18 +20,22 @@ class Requirement
      * @var string
      */
     public $summary;
+
     /**
      * @var string
      */
     public $details;
+
     /**
      * @var string
      */
     public $startDate;
+
     /**
-     * @var string
+     * @var string|null
      */
     public $endDate;
+
     /**
      * @var Document[]
      */

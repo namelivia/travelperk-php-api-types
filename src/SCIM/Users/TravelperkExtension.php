@@ -30,4 +30,19 @@ class TravelperkExtension
      * @var EmergencyContact
      */
     public $emergencyContact;
+
+    /**
+     * @var string|null
+     */
+    public $countryOfResidence;
+
+    /**
+     * @var TravelDocument[]|null
+     */
+    public $travelDocuments;
+
+    /**
+     * @var Approver[]|null
+     */
+    public $approvers;
 }

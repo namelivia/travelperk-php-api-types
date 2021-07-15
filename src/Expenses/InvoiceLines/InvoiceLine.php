@@ -57,42 +57,42 @@ class InvoiceLine
     public $metadata;
 
     /**
-     * @var string
+     * @var string | null
      */
     public $invoiceSerialNumber;
 
     /**
-     * @var string
+     * @var string | null
      */
     public $profileId;
 
     /**
-     * @var string
+     * @var string | null
      */
     public $profileName;
 
     /**
-     * @var string
+     * @var string | null
      */
     public $invoiceMode;
 
     /**
-     * @var string
+     * @var string | null
      */
     public $invoiceStatus;
 
     /**
-     * @var string
+     * @var string | null
      */
     public $issuingDate;
 
     /**
-     * @var string
+     * @var string | null
      */
     public $dueDate;
 
     /**
-     * @var string
+     * @var string | null
      */
     public $currency;
 }

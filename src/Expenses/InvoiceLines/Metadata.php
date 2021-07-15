@@ -65,4 +65,14 @@ class Metadata
      * @var User|null
      */
     public $booker;
+
+    /**
+     * @var str|null
+     */
+    public $serviceLocation;
+
+    /**
+     * @var bool|null
+     */
+    public $includeBreakfast;
 }

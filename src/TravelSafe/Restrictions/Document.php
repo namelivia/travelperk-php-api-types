@@ -17,7 +17,7 @@ class Document
     public $documentUrl;
 
     /**
-     * @var string
+     * @var string|null
      */
     public $downloadUrl;
 }

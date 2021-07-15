@@ -12,7 +12,7 @@ class EnterpriseExtension
     public $costCenter;
 
     /**
-     * @var Manager
+     * @var Manager|null
      */
     public $manager;
 }

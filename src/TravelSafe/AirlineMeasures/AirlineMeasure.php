@@ -15,10 +15,12 @@ class AirlineMeasure
      * @var SafetyMeasure[]
      */
     public $safetyMeasures;
+
     /**
      * @var \Namelivia\TravelPerk\TravelSafe\InfoSource
      */
     public $infoSource;
+
     /**
      * @var string
      */

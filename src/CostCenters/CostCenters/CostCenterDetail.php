@@ -7,7 +7,7 @@ namespace Namelivia\TravelPerk\CostCenters\CostCenters;
 class CostCenterDetail
 {
     /**
-     * @var string
+     * @var int
      */
     public $id;
 

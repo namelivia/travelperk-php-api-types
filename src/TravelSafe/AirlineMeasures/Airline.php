@@ -10,6 +10,7 @@ class Airline
      * @var string
      */
     public $name;
+
     /**
      * @var string
      */

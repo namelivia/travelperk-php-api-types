@@ -9,34 +9,35 @@ class Summary
     /**
      * @var string
      */
-    public $serialNumber;
+    public $summary;
 
     /**
      * @var string
      */
-    public $summary;
-    /**
-     * @var string
-     */
     public $details;
+
     /**
      * @var RiskLevel
      */
     public $riskLevel;
+
     /**
      * @var \Namelivia\TravelPerk\TravelSafe\Location
      */
     public $location;
+
     /**
      * @var string
      */
     public $updatedAt;
+
     /**
      * @var Guideline[]
      */
     public $guidelines;
+
     /**
-     * @var \Namelivia\TravelPerk\TravelSafe\InfoSource
+     * @var \Namelivia\TravelPerk\TravelSafe\InfoSource|null
      */
     public $infoSource;
 }

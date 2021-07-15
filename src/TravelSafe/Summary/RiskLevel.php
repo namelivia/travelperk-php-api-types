@@ -10,12 +10,19 @@ class RiskLevel
      * @var string
      */
     public $id;
+
     /**
      * @var string
      */
     public $name;
+
     /**
      * @var string
      */
     public $details;
+
+    /**
+     * @var []|null
+     */
+    public $data;
 }
