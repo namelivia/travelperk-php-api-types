@@ -22,7 +22,7 @@ class RiskLevel
     public $details;
 
     /**
-     * @var []|null
+     * @var object|null
      */
     public $data;
 }
