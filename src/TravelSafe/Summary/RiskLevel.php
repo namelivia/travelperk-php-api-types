@@ -20,9 +20,4 @@ class RiskLevel
      * @var string
      */
     public $details;
-
-    /**
-     * @var object|null
-     */
-    public $data;
 }
