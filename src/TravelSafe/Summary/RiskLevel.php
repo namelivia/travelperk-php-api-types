@@ -20,4 +20,9 @@ class RiskLevel
      * @var string
      */
     public $details;
+
+    /**
+     * @var stdClass|null
+     */
+    public $data;
 }
