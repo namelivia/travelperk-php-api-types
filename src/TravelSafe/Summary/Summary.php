@@ -9,6 +9,11 @@ class Summary
     /**
      * @var string
      */
+    public $id;
+
+    /**
+     * @var string
+     */
     public $summary;
 
     /**
