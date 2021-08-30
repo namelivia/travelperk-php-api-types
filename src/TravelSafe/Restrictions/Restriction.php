@@ -7,6 +7,11 @@ namespace Namelivia\TravelPerk\TravelSafe\Restrictions;
 class Restriction
 {
     /**
+     * @var string
+     */
+    public $id;
+
+    /**
      * @var \Namelivia\TravelPerk\TravelSafe\Location
      */
     public $origin;
