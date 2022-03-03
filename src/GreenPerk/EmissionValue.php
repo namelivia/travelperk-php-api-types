@@ -9,5 +9,5 @@ class EmissionValue
     /**
      * @var int
      */
-    public $CO2eKg;
+    public $co2eKg;
 }
