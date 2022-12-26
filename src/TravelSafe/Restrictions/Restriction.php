@@ -27,6 +27,11 @@ class Restriction
     public $authorizationStatus;
 
     /**
+     * @var string[]
+     */
+    public $authorizedTravelers;
+
+    /**
      * @var string
      */
     public $summary;

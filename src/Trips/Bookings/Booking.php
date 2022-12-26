@@ -52,6 +52,11 @@ class Booking
     public $location;
 
     /**
+     * @var Location|null
+     */
+    public $dropOffLocation;
+
+    /**
      * @var Leg[]|null
      */
     public $legs;
