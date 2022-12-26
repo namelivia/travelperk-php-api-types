@@ -52,12 +52,12 @@ class Trip
     public $endDateTimeLocal;
 
     /**
-     * @var Location|null
+     * @var \Namelivia\TravelPerk\Trips\Location|null
      */
     public $startLocation;
 
     /**
-     * @var Location|null
+     * @var \Namelivia\TravelPerk\Trips\Location|null
      */
     public $endLocation;
 

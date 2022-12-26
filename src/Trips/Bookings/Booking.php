@@ -47,12 +47,12 @@ class Booking
     public $references;
 
     /**
-     * @var Location|null
+     * @var \Namelivia\TravelPerk\Trips\Location|null
      */
     public $location;
 
     /**
-     * @var Location|null
+     * @var \Namelivia\TravelPerk\Trips\Location|null
      */
     public $dropOffLocation;
 

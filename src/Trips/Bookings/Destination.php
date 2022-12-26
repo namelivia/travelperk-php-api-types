@@ -7,7 +7,7 @@ namespace Namelivia\TravelPerk\Trips\Bookings;
 class Destination
 {
     /**
-     * @var Location
+     * @var \Namelivia\TravelPerk\Trips\Location
      */
     public $location;
 
